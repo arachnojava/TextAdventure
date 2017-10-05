@@ -1,0 +1,56 @@
+﻿Build started 11/11/2013 6:22:07 PM.
+     1>Project "C:\Users\d01052702\Desktop\Dropbox\Dev\TextAdventure\TextAdventure\TextAdventure.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TextAdventure.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Building.cpp GameActor.cpp MonkeySlayer.cpp Monster.cpp Player.cpp
+         Player.cpp
+         Monster.cpp
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\monster.cpp(11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         MonkeySlayer.cpp
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         GameActor.cpp
+         Building.cpp
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\building.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+     1>c:\users\d01052702\desktop\dropbox\dev\textadventure\textadventure\monster.cpp(11): warning C4700: uninitialized local variable 'name' used
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TextAdventure.exe.embed.manifest.res" Debug\TextAdventure_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TextAdventure.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TextAdventure.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\TextAdventure.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TextAdventure.lib" /MACHINE:X86 Debug\TextAdventure.exe.embed.manifest.res
+         Debug\Building.obj
+         Debug\GameActor.obj
+         Debug\MonkeySlayer.obj
+         Debug\Monster.obj
+         Debug\Player.obj
+     1>LINK : warning LNK4076: invalid incremental status file 'Debug\TextAdventure.ilk' (which will be deleted); linking nonincrementally
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TextAdventure.exe.embed.manifest" /manifest Debug\TextAdventure.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TextAdventure.exe.embed.manifest.res" Debug\TextAdventure_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TextAdventure.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TextAdventure.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\TextAdventure.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TextAdventure.lib" /MACHINE:X86 Debug\TextAdventure.exe.embed.manifest.res
+         Debug\Building.obj
+         Debug\GameActor.obj
+         Debug\MonkeySlayer.obj
+         Debug\Monster.obj
+         Debug\Player.obj
+         TextAdventure.vcxproj -> C:\Users\d01052702\Desktop\Dropbox\Dev\TextAdventure\TextAdventure\Debug\TextAdventure.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TextAdventure.unsuccessfulbuild".
+         Touching "Debug\TextAdventure.lastbuildstate".
+     1>Done Building Project "C:\Users\d01052702\Desktop\Dropbox\Dev\TextAdventure\TextAdventure\TextAdventure.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.36
